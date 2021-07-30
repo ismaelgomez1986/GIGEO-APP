@@ -1,0 +1,59 @@
+.hero-section__container {
+    margin: .5rem 4%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    @media (max-width: 576px) {
+        margin-top: 1rem;
+        justify-content: center;
+    }
+
+    &__profile {
+        margin: 0;
+        width: 50%;
+    }
+
+    &-text {
+        margin-left: 1.5rem;
+
+        @media (max-width: 768px) {
+            margin-left: 1rem;
+        }
+
+        @media (max-width: 576px) {
+            margin-left: 2rem;
+        }
+    }
+
+    &-text h3 {
+        font-weight: $fw-semi-bold;
+
+        @media (max-width: 576px) {
+            margin-top: 1.5rem;
+            font-size: 2.3rem;
+        }
+    }
+
+    &-text p {
+        font-weight: $fw-extra-light;
+        color: $granite-gray;
+
+        @media (max-width: 576px) {
+            font-size: $x-large;
+        }
+    }
+
+    &-image {
+        margin-top: .5rem;
+        width: 5rem;
+        height: 5rem;
+
+        @media (max-width: 576px) {
+            margin-top: 1rem;
+            width: 7rem;
+            height: 7rem;
+
+        }
+    }
+}

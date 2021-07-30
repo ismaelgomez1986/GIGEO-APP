@@ -1,0 +1,37 @@
+.btn-seguir, .btn-mensaje {
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+    color: $white;
+    width: 7rem;
+
+    @media (max-width: 768px) {
+        size: 95%;
+    }
+
+    @media (max-width: 576px) {
+        display: none;
+    }
+}
+
+
+.btn-mensaje {
+    background-color: $before-blue;
+
+    &:hover {
+        background-color: $after-blue;
+        color: $white;
+    }
+}
+
+.btn-seguir {
+    margin-right: .25rem;
+    background-color: $before-orange;
+
+    &:hover {
+        background-color: $after-orange;
+        color: $white;
+    }
+}

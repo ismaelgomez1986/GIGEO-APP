@@ -1,0 +1,27 @@
+.navigation {
+    margin: 0 4%;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.navbar-brand  {
+    position: relative;
+    font-family: $poppins;
+    font-weight: $fw-medium;
+    font-size: $xxx-large;
+    text-transform: uppercase;
+
+    &__sup {
+        position: absolute;
+        font-size: $small;
+        top: 1rem;
+    }
+}
+
+.nav-link {
+    margin-left: 1.3rem;
+}
+
+.navbar-toggler {
+    border: none;
+}
